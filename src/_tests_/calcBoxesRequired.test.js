@@ -13,14 +13,17 @@ test.each([
     [7, 100, 100, 3],
     [17, 100, 100, 5],
     [27, 100, 100, 7],
-    // Not enough big boxes
+    // Only big boxes needed
+    [5, 1, 0, 1],
+    [10, 2, 0, 2],
+    // Big boxes and small boxes needed
     [7, 0, 100, 7],
     [7, 1, 100, 3],
     [12, 2, 100, 4],
-    // Not enough small boxes
+    // Enough big boxes but not enough small boxes
     [8, 100, 0, -1],
     [9, 100, 1, -1],
-    // Right number of boxes
+    // Exactly right number of boxes
     [10, 2, 0, 2],
     [11, 2, 1, 3],
     [14, 2, 4, 6],
