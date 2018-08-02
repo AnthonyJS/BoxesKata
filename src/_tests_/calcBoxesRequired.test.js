@@ -7,7 +7,7 @@ test.each([
     // Zero state
     [0, 1, 1, 0],
     [0, 0, 0, 0],
-    // Unlimited boxes
+    // Surplus boxes
     [1, 100, 100, 1],
     [3, 100, 100, 3],
     [5, 100, 100, 1],
