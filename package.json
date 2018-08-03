@@ -11,6 +11,6 @@
         "testEnvironment": "node"
     },
     "scripts": {
-        "test": "sudo jest --watchAll"
+        "test": "jest --watchAll"
     }
 }

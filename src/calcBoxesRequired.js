@@ -1,6 +1,5 @@
 const getBoxesRequired = (items, largeBoxesAvailable, smallBoxesAvailable) => {
     if (items < 0) return -1
-    if (items === 0) return 0
 
     let largeBoxesRequired = Math.floor(items / 5)
 
